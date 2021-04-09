@@ -1,0 +1,88 @@
+.campaigns {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d3e0ea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: hidden;
+}
+.campaigns-container {
+  border-radius: 10px;
+  width: 60vw;
+  border: 3px solid #1687a7;
+  height: 20vh;
+  display: flex;
+}
+.campaigns-image {
+  width: 20vh;
+  height: 20vh;
+}
+.campaigns-container-right {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.campaigns-big-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2rem;
+  color: #000;
+  text-align: left;
+}
+.campaigns-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1rem;
+  color: #000;
+  text-align: left;
+}
+.campaigns-page-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 4rem;
+  color: #000;
+}
+@media (min-device-width: 200px) and (max-device-width: 700px) {
+  .campaigns {
+    height: 100%;
+  }
+  .campaigns-container {
+    width: 90vw;
+  }
+  .campaigns-container-right {
+    padding: 5%;
+  }
+  .campaigns-big-title {
+    font-size: 1rem;
+  }
+  .campaigns-desc {
+    font-size: 0.5rem;
+  }
+  .campaigns-page-title {
+    font-size: 1rem;
+  }
+}
+@media (min-device-width: 700px) and (max-device-width: 1024px) {
+  .campaigns {
+    height: 100%;
+  }
+  .campaigns-container {
+    width: 90vw;
+  }
+  .campaigns-big-title {
+    font-size: 2.5rem;
+  }
+  .campaigns-desc {
+    font-size: 1.25rem;
+  }
+  .campaigns-page-title {
+    font-size: 2.5rem;
+  }
+}

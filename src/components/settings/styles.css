@@ -1,0 +1,35 @@
+.modal-container {
+  width: 30vw;
+  height: 45vh;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.settings-modal-button {
+  width: 95%;
+}
+.settings-modal-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+@media (min-device-width: 200px) and (max-device-width: 700px) {
+  .modal-container {
+    width: 80vw;
+    height: 90vw;
+  }
+  .settings-modal-button {
+    margin-bottom: 10%;
+  }
+}
+@media (min-device-width: 700px) and (max-device-width: 1024px) {
+  .modal-container {
+    width: 70vw;
+    height: 60vw;
+  }
+  .settings-modal-title {
+    font-size: 3rem;
+  }
+}
